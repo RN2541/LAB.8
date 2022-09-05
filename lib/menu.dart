@@ -12,11 +12,31 @@ class _MenuState extends State<Menu> {
       "ตำถาด",
       250
     ],
+    [
+      "https://aroi-mark.com/wp-content/uploads/2021/06/product_34935_108509993_fullsize.jpg",
+      "ตำไทย",
+      50
+    ],
+    [
+      "https://food.mthai.com/app/uploads/2015/06/iStock_000061473972_Small.jpg",
+      "ตำปูปลาร้า",
+      55
+    ],
     ["https://i.ytimg.com/vi/JDIqP2BMI4o/maxresdefault.jpg", "ซุปหน่อไม้", 50],
     [
       "https://i.ytimg.com/vi/XS7pN2HnUZM/sddefault.jpg",
       "น้ำตกคอหมูย่าง",
       80,
+    ],
+    [
+      "https://i.ytimg.com/vi/A0hhUVYpICM/maxresdefault.jpg",
+      "ลาบหมู",
+      80,
+    ],
+    [
+      "https://i.ytimg.com/vi/0AAk3wEBqno/maxresdefault.jpg",
+      "ตับหวาน",
+      70,
     ],
     [
       "https://upload.wikimedia.org/wikipedia/commons/d/d6/%E0%B8%84%E0%B8%AD%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87.jpg",
@@ -41,6 +61,11 @@ class _MenuState extends State<Menu> {
     [
       "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2022/06/14/103df643b8e84d6a87e38289c33b8a26_Get_To_Know_How_Khanom_Chin_Conquered_Thailand_%2810%29.jpg",
       "ขนมจีน",
+      20
+    ],
+    [
+      "https://img.wongnai.com/p/1968x0/2021/07/10/04672818b7c04db6a7b606e240cde904.jpg",
+      "เส้นหมี่",
       20
     ],
   ];
