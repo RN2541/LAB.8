@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.orange,
+          backgroundColor: Color.fromARGB(255, 255, 140, 0),
           title: Text("เมนู ร้านอีสานไทบ้าน"),
         ),
         body: Menu(),
