@@ -12,10 +12,16 @@ class _MenuState extends State<Menu> {
       "ตำถาด",
       250
     ],
+    ["https://i.ytimg.com/vi/JDIqP2BMI4o/maxresdefault.jpg", "ซุปหน่อไม้", 50],
     [
       "https://i.ytimg.com/vi/XS7pN2HnUZM/sddefault.jpg",
       "น้ำตกคอหมูย่าง",
       70,
+    ],
+    [
+      "https://scm-assets.constant.co/scm/unilever/e9dc924f238fa6cc29465942875fe8f0/85e48a46-7e8f-46bc-a81f-aa82b75e40c5.jpg",
+      "ต้มแซ่บกระดูกอ่อน",
+      80,
     ],
     [
       "https://img-global.cpcdn.com/recipes/053a8c5285883a97/1200x630cq70/photo.jpg",
