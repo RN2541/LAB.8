@@ -16,6 +16,11 @@ class _MenuState extends State<Menu> {
     [
       "https://i.ytimg.com/vi/XS7pN2HnUZM/sddefault.jpg",
       "น้ำตกคอหมูย่าง",
+      80,
+    ],
+    [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d6/%E0%B8%84%E0%B8%AD%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87.jpg",
+      "คอหมูย่าง",
       70,
     ],
     [
@@ -31,6 +36,11 @@ class _MenuState extends State<Menu> {
     [
       "http://2.bp.blogspot.com/-C9n0uXPEpY4/VA7dQUYKoDI/AAAAAAAAAcU/r4oiILKTebU/s1600/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B9%80%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%AD%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B1%E0%B8%99.JPG",
       "ข้าวเหนียวอัญชัน",
+      20
+    ],
+    [
+      "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2022/06/14/103df643b8e84d6a87e38289c33b8a26_Get_To_Know_How_Khanom_Chin_Conquered_Thailand_%2810%29.jpg",
+      "ขนมจีน",
       20
     ],
   ];
@@ -70,13 +80,13 @@ class _MenuState extends State<Menu> {
                               ),
                             ),
                             SizedBox(
-                              height: 5,
+                              height: 10,
                             ),
                             Text(
-                              " ${foodLists[index][2]} ฿",
+                              " ${foodLists[index][2]} บาท",
                               style: TextStyle(
-                                color: Colors.lightBlue,
-                                fontSize: 14,
+                                color: Colors.redAccent,
+                                fontSize: 20,
                               ),
                             )
                           ],
@@ -89,12 +99,12 @@ class _MenuState extends State<Menu> {
                   padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                   alignment: Alignment.bottomRight,
                   child: Chip(
-                    backgroundColor: Colors.lightGreen,
+                    backgroundColor: Colors.lightBlue,
                     label: Text(
-                      "Order Now",
+                      "สั่งอาหาร",
                       style: TextStyle(
                         color: Colors.white,
-                        fontSize: 11,
+                        fontSize: 15,
                       ),
                     ),
                   ),

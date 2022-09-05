@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.orange,
-          title: Text("Food Menu"),
+          title: Text("เมนู ร้านอีสานไทบ้าน"),
         ),
         body: Menu(),
       ),
